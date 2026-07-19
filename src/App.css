@@ -1,0 +1,36 @@
+/* GLOBAL RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #08111f;
+  color: white;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* REMOVE DEFAULT HEADING / PARAGRAPH SPACING */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
