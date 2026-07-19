@@ -15,8 +15,8 @@ function Footer() {
               reliable and modern recruitment solutions.
             </p>
 
-            <a href="mailto:info@hirinity.com">
-              info@hirinity.com
+            <a href="mailto:sales@hirinity.in">
+              sales@hirinity.in
             </a>
           </div>
 

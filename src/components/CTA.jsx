@@ -31,7 +31,7 @@ function CTA() {
               </button>
 
               <a
-                href="mailto:info@hirinity.com?subject=Let's Talk About Hiring"
+                href="mailto:sales@hirinity.in?subject=Let's Talk About Hiring"
                 className="cta-secondary"
               >
                 Talk to Us
@@ -40,7 +40,21 @@ function CTA() {
           )}
 
           {showForm && (
-            <form className="hire-form">
+            <form
+  className="hire-form"
+  action="https://formsubmit.co/sales@hirinity.in"
+  method="POST"
+><input
+  type="hidden"
+  name="_subject"
+  value="New Hiring Requirement - Hirinity"
+/>
+
+<input
+  type="hidden"
+  name="_captcha"
+  value="false"
+/>
               <input
                 type="text"
                 name="name"
