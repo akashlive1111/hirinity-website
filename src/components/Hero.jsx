@@ -58,7 +58,7 @@ function Hero() {
           <div className="hero-mini-stats">
 
             <div>
-              <strong>5000+</strong>
+              <strong>1500+</strong>
               <span>Placements</span>
             </div>
 
