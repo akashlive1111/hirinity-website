@@ -517,3 +517,106 @@
     grid-template-columns: 1fr;
   }
 }
+/* ===== HIRINITY PURPLE ACCENT EXPERIMENT ===== */
+
+/* Gradient highlight for hero heading */
+.hero-left h1 span {
+  background: linear-gradient(90deg, #a855f7 0%, #7c3aed 45%, #35b6ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Trusted Recruitment Partner pill */
+.hero-tag {
+  color: #c084fc;
+  border-color: rgba(168, 85, 247, 0.35);
+  background: rgba(124, 58, 237, 0.08);
+  box-shadow: 0 0 24px rgba(124, 58, 237, 0.08);
+}
+
+/* Primary button */
+.primary-btn,
+.profile-btn {
+  background: linear-gradient(90deg, #7c3aed 0%, #a855f7 50%, #35b6ff 100%);
+  box-shadow:
+    0 12px 32px rgba(124, 58, 237, 0.28),
+    0 0 24px rgba(168, 85, 247, 0.18);
+}
+
+.primary-btn:hover,
+.profile-btn:hover {
+  box-shadow:
+    0 16px 42px rgba(124, 58, 237, 0.38),
+    0 0 30px rgba(168, 85, 247, 0.24);
+}
+
+/* Secondary button subtle violet border */
+.secondary-btn {
+  border-color: rgba(168, 85, 247, 0.28);
+}
+
+.secondary-btn:hover {
+  border-color: #a855f7;
+  box-shadow: 0 0 24px rgba(168, 85, 247, 0.16);
+}
+
+/* Stats card purple aura */
+.hero-mini-stats > div {
+  border-color: rgba(168, 85, 247, 0.12);
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.05);
+}
+
+.hero-mini-stats > div:hover {
+  border-color: rgba(168, 85, 247, 0.3);
+  box-shadow:
+    0 14px 34px rgba(124, 58, 237, 0.14),
+    0 0 22px rgba(53, 182, 255, 0.08);
+}
+
+/* Talent dashboard purple-blue glow */
+.talent-dashboard {
+  border-color: rgba(168, 85, 247, 0.2);
+
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.28),
+    0 0 42px rgba(124, 58, 237, 0.12),
+    0 0 24px rgba(53, 182, 255, 0.06);
+}
+
+.talent-dashboard::before {
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.18),
+    rgba(53, 182, 255, 0.08)
+  );
+}
+
+/* Talent Match label */
+.small-label {
+  background: linear-gradient(90deg, #c084fc, #35b6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Match badge */
+.match-badge {
+  border-color: rgba(168, 85, 247, 0.28);
+  background: rgba(124, 58, 237, 0.1);
+
+  box-shadow:
+    inset 0 0 20px rgba(168, 85, 247, 0.08),
+    0 0 24px rgba(124, 58, 237, 0.14);
+}
+
+.match-badge span {
+  color: #c084fc;
+}
+
+/* Skill chips */
+.talent-dashboard .skill-tags span {
+  background: rgba(124, 58, 237, 0.1);
+  border-color: rgba(168, 85, 247, 0.22);
+  color: #ddd6fe;
+}

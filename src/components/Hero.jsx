@@ -47,7 +47,7 @@ function Hero() {
             </button>
 
            <a
-  href="mailto:sales@hirinity.in?subject=Job Application - Hirinity"
+  href="mailto:info@hirinity.com?subject=Job Application - Hirinity"
   className="secondary-btn"
 >
   Explore Jobs
