@@ -78,54 +78,64 @@ function Hero() {
 
         <div className="hero-right">
 
-          <div className="dashboard-card">
+          <div className="dashboard-card talent-dashboard">
 
-            <div className="dashboard-header">
+  <div className="dashboard-header">
+    <div>
+      <span className="small-label">Talent Match</span>
+      <h3>Senior React Developer</h3>
+    </div>
 
-              <div>
-                <span className="small-label">Best Match</span>
-                <h3>Senior React Developer</h3>
-              </div>
+    <div className="match-badge">
+      <strong>96%</strong>
+      <span>Match</span>
+    </div>
+  </div>
 
-              <div className="match-badge">
-                96%
-              </div>
+  <div className="talent-details">
+    <div className="detail-item">
+      <span>Experience</span>
+      <strong>6+ Years</strong>
+    </div>
 
-            </div>
+    <div className="detail-item">
+      <span>Availability</span>
+      <strong>Immediate</strong>
+    </div>
 
-            <div className="candidate-profile">
+    <div className="detail-item">
+      <span>Work Mode</span>
+      <strong>Remote</strong>
+    </div>
+  </div>
 
-              <div className="candidate-avatar">
-                AS
-              </div>
+  <div className="skill-tags">
+    <span>React</span>
+    <span>Node.js</span>
+    <span>AWS</span>
+  </div>
 
-              <div>
-                <h4>Alex Smith</h4>
-                <p>6 Years Experience</p>
-              </div>
+  <div className="talent-checklist">
+    <p>✓ Profile Verified</p>
+    <p>✓ Skills Assessed</p>
+    <p>✓ Ready to Interview</p>
+  </div>
 
-            </div>
+  <button
+    type="button"
+    className="profile-btn"
+    onClick={goToContact}
+  >
+    Start Hiring →
+  </button>
 
-            <div className="skill-tags">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>AWS</span>
-            </div>
-
-            <button
-              type="button"
-              className="profile-btn"
-            >
-              View Candidate
-            </button>
-
-          </div>
-
+</div>
         </div>
 
-      </div>
-    </section>
-  );
+  </div>
+
+</section>
+);
 }
 
 export default Hero;
