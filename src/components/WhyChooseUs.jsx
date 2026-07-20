@@ -15,7 +15,7 @@ function WhyChooseUs() {
 
           <p>
             We combine recruitment expertise, quality screening and a
-            global talent network to help companies hire with confidence.
+            strong talent network to help companies hire with confidence.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ function WhyChooseUs() {
 
           <div className="why-card">
             <span className="why-number">04</span>
-            <h3>Global Talent Network</h3>
+            <h3>Strong Talent Network</h3>
             <p>
               Access professionals across multiple industries and markets
               through our growing talent network.
@@ -76,7 +76,7 @@ function WhyChooseUs() {
           </div>
 
           <div>
-            <strong>Global</strong>
+            <strong>Extensive</strong>
             <span>Talent Reach</span>
           </div>
         </div>
