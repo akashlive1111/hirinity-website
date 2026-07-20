@@ -24,11 +24,11 @@ function Hero() {
             Trusted Recruitment Partner
           </span>
 
-          <h1>
-            Find Exceptional <span>Talent.</span>
-            <br />
-            Build Exceptional Teams.
-          </h1>
+         <h1>
+  Infinite Talent.
+  <br />
+  Infinite <span>Growth.</span>
+</h1>
 
           <p>
             Hirinity helps growing businesses hire high-quality professionals
