@@ -41,9 +41,9 @@
 
 .hero-left h1 {
   color: #ffffff;
-  font-size: clamp(52px, 5vw, 82px);
-  line-height: 1.02;
-  letter-spacing: -2.5px;
+  font-size: clamp(48px, 4.5vw, 72px);
+  line-height: 1.08;
+  letter-spacing: -2px;
   margin: 0 0 30px;
 }
 
@@ -192,4 +192,4 @@
   .hero {
     min-height: auto;
   }
-}
+}   
