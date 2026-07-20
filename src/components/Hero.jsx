@@ -24,10 +24,10 @@ function Hero() {
             Trusted Recruitment Partner
           </span>
 
-         <h1>
+  <h1>
   Infinite Talent.
   <br />
-  Infinite <span>Growth.</span>
+  <span>Infinite Possibilities.</span>
 </h1>
 
           <p>
