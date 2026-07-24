@@ -3,15 +3,21 @@
     justify-content:space-between;
     align-items:center;
 
-    padding:20px 80px;
+    padding:14px 80px;
 
     background:#081223;
 }
 
 .logo{
-    color:#39b9ff;
-    font-size:32px;
-    font-weight:bold;
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.logo img{
+    width:320px;
+    height:auto;
+    display:block;
 }
 
 .nav-links{
@@ -31,16 +37,17 @@
 .nav-links a:hover{
     color:#39b9ff;
 }
+
 @media (max-width: 768px) {
   .navbar {
-    padding: 18px 20px;
+    padding: 14px 20px;
   }
 
   .nav-links {
     display: none;
   }
 
-  .logo {
-    font-size: 26px;
+  .logo img {
+    width:150px;
   }
 }

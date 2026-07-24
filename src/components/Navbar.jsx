@@ -1,9 +1,12 @@
 import "../Navbar.css";
+import logo from "../assets/hirinity-logo.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">HIRINITY</div>
+      <a href="#home" className="logo">
+        <img src={logo} alt="Hirinity Logo" />
+      </a>
 
       <ul className="nav-links">
         <li>
